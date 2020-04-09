@@ -46,7 +46,7 @@ A pre-built version of this image is available on the IBM Cloud Container Regist
 After extracting the code from this repository, you can build an image with the latest version of MQ using the following command:
 
 ```
-docker build --tag mq .
+docker build --tag ibmcom/mq .
 ```
 
 # Usage
@@ -238,3 +238,6 @@ Licenses for the products installed within the images are as follows:
  - License information for Ubuntu packages may be found in `/usr/share/doc/${package}/copyright`
 
 Note: The IBM MQ Advanced for Developers license does not permit further distribution and the terms restrict usage to a developer machine.
+
+# Docker SSH
+https://docs.docker.com/engine/examples/running_ssh_service/
